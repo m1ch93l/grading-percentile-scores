@@ -1,6 +1,6 @@
 <template>
     <div class="text-center">
-      <v-text-field class="align-items-center" width="300" v-model.number="inputNumber" label="Enter the Total items"
+      <v-text-field class="align-items-center" width="300" v-model.number="inputNumber" label="Enter Total Items"
         @input="updateCounter" />
     </div>
     <v-row>
