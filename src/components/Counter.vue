@@ -4,7 +4,7 @@
         @input="updateCounter" />
     </div>
     <v-row>
-      <v-col cols="12" sm="6" md="4" lg="1" v-for="n in counter" :key="n">
+      <v-col sm="6" md="4" lg="1" v-for="n in counter" :key="n">
         <v-card>
           <v-card-body>{{ n }} - {{ ((n - 0) * 100) / inputNumber }}%</v-card-body>
         </v-card>
