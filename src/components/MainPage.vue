@@ -6,6 +6,7 @@
       </v-col>
       <v-col cols="12" class="text-center">
         <Counter />
+        <CounterSH />
       </v-col>
     </v-row>
   </v-container>
