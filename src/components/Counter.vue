@@ -6,7 +6,7 @@
     <v-row>
       <v-col sm="6" md="4" lg="1" v-for="n in counter" :key="n">
         <v-card>
-          <v-card-body>{{ n }} - {{ ((n - 0) * 100) / inputNumber }}%</v-card-body>
+          <v-card-body>{{ n }} - {{ Math.round(((n - 0)) * 100) / inputNumber }}%</v-card-body>
         </v-card>
       </v-col>
     </v-row>
